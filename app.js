@@ -28,7 +28,7 @@ app.use(errorHandler({
 var restify = require('restify-nedb').mount;
 var config = require('restify-nedb').config;
 var Datastore = require('nedb');
-var databaseUrl = servingfolder + '\\database\\objects.json'; 
+var databaseUrl = servingfolder + '\\database\\objects.db'; 
 
 //**********************************
 // SETUP DATABASE AND REST ENDPOINT
